@@ -33,12 +33,25 @@ while True:
     if user=="1":
         Budget=int(input("Enter total Budget:- "))
 
-    elif user=="2":
-        note=input("Enter Note:- ")
+     elif user=="2":
         Expense=int(input("Enter amt to you spend:- "))
-        Budget=Budget-Expense
-        Category.append(note)
-        transactions.append(Expense)
+        print("Select Category")
+        print(
+    "Food\n"
+    "Travel\n"
+    "Shopping\n"
+    "Education\n"
+    "Healthcare\n"
+    "Bills\n"
+    "Entertainment\n"
+    "Mobile & Recharge\n"
+    "Personal Care\n"
+    "Rent & Housing\n"
+    "Savings\n"
+    "Bank Charges\n"
+    "Gifts & Donations\n"
+    "Others\n"
+)
 
     elif user=="3":
         print(note)
