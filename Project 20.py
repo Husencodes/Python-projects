@@ -4,7 +4,22 @@
 
 
 transactions=[]
-Category=[]
+categories = {
+    1: "Food",
+    2: "Travel",
+    3: "Shopping",
+    4: "Education",
+    5: "Healthcare",
+    6: "Bills",
+    7: "Entertainment",
+    8: "Mobile & Recharge",
+    9: "Personal Care",
+    10: "Rent & Housing",
+    11: "Savings",
+    12: "Bank Charges",
+    13: "Gifts & Donations",
+    14: "Others"
+}
 
 while True:
     print("1.Add budget")
