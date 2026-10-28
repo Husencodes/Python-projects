@@ -52,6 +52,11 @@ while True:
     "Gifts & Donations\n"
     "Others\n"
 )
+          cate=input("Enter Category:- ").title()
+        Budget=Budget-Expense
+        categories=categories.get(cate,0)+Expense
+        transactions.append(Expense)
+
 
     elif user=="3":
         print(note)
