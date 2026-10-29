@@ -1,7 +1,7 @@
 
 # Project under building Completing soon......
 # Expense tracker
-
+# due to acadamic exams 
 
 transactions=[]
 categories = {
