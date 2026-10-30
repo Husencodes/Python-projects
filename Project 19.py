@@ -1,3 +1,4 @@
+# Weather app
 import requests
 
 API_KEY = "YOUR_API_KEY" #add your own api key from weather app
